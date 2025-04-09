@@ -24,7 +24,7 @@ Here's what a parser for a simple language of binary expressions over natural nu
 (binop "+" 1 2)
 ```
 
-Left-recursive nonterminal specifications in PEGs are undesirable because theyy lead to diverging parses. The DSL implementation includes a check that identifies this situation and raises a compile-time error.
+Left-recursive nonterminal specifications in PEGs are undesirable because they lead to diverging parses. The DSL implementation includes a check that identifies this situation and raises a compile-time error.
 
 
 ## Installing and running
